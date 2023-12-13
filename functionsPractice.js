@@ -12,6 +12,13 @@
 //   - How do I know this?
 //   - What should I call them?
 
+function numSquared(num) {
+  let squared = num*num;
+  return squared;
+}
+
+console.log(numSquared(6));
+
 // 3. BODY
 //   - What needs to happen to my parameters to give me the result I want?
 //   - Where do I want the result to show up?
